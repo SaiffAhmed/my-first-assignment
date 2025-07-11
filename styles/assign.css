@@ -46,7 +46,6 @@ margin: 170px 0 0 0;
      align-items: center;
     justify-content:space-around;
     margin:0 350px 0 350px;
-    flex-direction: row;
 
 }
 .text-two{
@@ -55,4 +54,32 @@ margin: 170px 0 0 0;
 .pic{
     border-radius: 48px;
     height: 280px;
+}
+/* productive user section */
+.box-container{
+    background-color: #e7ecf5;
+    padding:40px 20px;
+    text-align: center;
+    max-width: 800px;
+    border-radius: 15px;
+    margin: auto;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding:20px 0;
+    gap:65px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.box div h1{
+    color: #0077ff;
+    font-size: 55px;
+    margin:0;
+}
+.box div p{
+    margin:5px 0 0;
+}
+.box-container h1{
+    font-size:30px;
 }
