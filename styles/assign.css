@@ -14,6 +14,7 @@ nav{
     font-size: 15px;
     padding: 12px 30px;
     border-radius: 10px;
+    border-color: #4E47FF;
 }
 .btn-primary:hover{
     background-color:darkgray;
@@ -37,4 +38,21 @@ header .sec{
 text-align: center;
 margin: 170px 0 0 0;
 
+}   
+.action{
+    height:400px;
+    width: auto;
+    display: flex;
+     align-items: center;
+    justify-content:space-around;
+    margin:0 350px 0 350px;
+    flex-direction: row;
+
+}
+.text-two{
+    font-size:xx-large;
+}
+.pic{
+    border-radius: 48px;
+    height: 280px;
 }
